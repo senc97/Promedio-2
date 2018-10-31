@@ -1,0 +1,37 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="./codigo.js"></script>
+
+	<style>
+		#pokm{
+			width: 25%;
+		}
+		body{
+			background-color: yellowgreen;
+		}
+	</style>
+</head>
+<body>
+
+	
+	<div>
+		<img id="pokm" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png" alt="pok">
+	</div>
+
+	<br>
+
+	<div >
+		<form id="pokedexform" >
+			<input type="text" id="pokemon" >
+			<input type="submit" id="pk_button" >
+		</form>
+	</div>
+	<div id="pokedex">
+		<ul>
+			<li id="pokemon_name">Nombre: <span id="pk_name"></span></li>
+			<li id="pokemon_weight">Peso: <span id="pk_weight"></span></li>
+
+	</div>
+</body>
+</html>
